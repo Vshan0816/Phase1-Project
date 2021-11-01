@@ -3,7 +3,7 @@
         {
             "name": "Shiki Tohno",
             "id": 1,
-            "shikiMoveset": [
+            "moveset": [
                 {
                     "shiki5A": {
                         "startup":5,
@@ -12,11 +12,200 @@
                 },
                 { 
                     "shiki5B": {
+                        "startup":8,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "shiki5C": {
+                        "startup":9,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "shiki5CHold": {
+                        "startup":31,
+                        "onBlock":"unblockable"
+                     }
+                },
+                { 
+                    "shiki2A": {
                         "startup":5,
                         "onBlock":-1
                      }
                 },
+                { 
+                    "shiki2B": {
+                        "startup":7,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "shiki2C": {
+                        "startup":7,
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "shikiXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "shikiXXX": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "shiki3C": {
+                        "startup":12,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "shikiJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "shikiJB": {
+                        "startup":6,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "shikiJC": {
+                        "startup":10,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "shikiJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "shiki236A": {
+                        "startup":12,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "shiki236B": {
+                        "startup":18,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "shiki236C": {
+                        "startup":9,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "shiki623A": {
+                        "startup":6,
+                        "onBlock":-26
+                     }
+                },
+                { 
+                    "shiki623B": {
+                        "startup":6,
+                        "onBlock":-30
+                     }
+                },
+                { 
+                    "shiki623C": {
+                        "startup":5,
+                        "onBlock":-30
+                     }
+                },
+                { 
+                    "shiki214A": {
+                        "startup":8,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "shiki214B": {
+                        "startup":17,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "shiki214C": {
+                        "startup":7,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "shiki214XX": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "shiki22A": {
+                        "startup":29,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "shiki22B": {
+                        "startup":13,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "shiki22C": {
+                        "startup":11,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "shiki6BC": {
+                        "startup":15,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "shiki3BC": {
+                        "startup":7,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "shiki4BC": {
+                        "startup":14,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "shiki2BC": {
+                        "startup":27,
+                        "onBlock":1
+                     }
+                },
+                { 
+                    "shiki236BC": {
+                        "startup":"n/a",
+                        "onBlock":-22
+                     }
+                },
+                { 
+                    "shiki236BCHold": {
+                        "startup":"n/a",
+                        "onBlock":"unblockable"
+                     }
+                }
              ]     
+        },
+        {
+            
         }
     ]
 }
