@@ -1,0 +1,22 @@
+{
+    "typeLuminaCharacter": [
+        {
+            "name": "Shiki Tohno",
+            "id": 1,
+            "shikiMoveset": [
+                {
+                    "shiki5A": {
+                        "startup":5,
+                        "onBlock":-1
+                    }
+                },
+                { 
+                    "shiki5B": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+             ]     
+        }
+    ]
+}
