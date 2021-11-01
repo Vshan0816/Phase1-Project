@@ -205,6 +205,258 @@
              ]     
         },
         {
+            "name": "Arcueid Brunestud",
+            "id":2,
+            "moveset":[
+                { 
+                    "arcueid5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "arcueid5B": {
+                        "startup":9,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "arcueid5BHold": {
+                        "startup":29,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "arcueid5C": {
+                        "startup":10,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "arcueid5CHold": {
+                        "startup":37,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "arcueid2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "arcueid2B": {
+                        "startup":7,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "arcueid2C": {
+                        "startup":10,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "arcueidXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "arcueidXXX": {
+                        "startup":"n/a",
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "arcueid3C": {
+                        "startup":12,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "arcueid4C": {
+                        "startup":10,
+                        "onBlock":-16
+                     }
+                },
+                { 
+                    "arcueidJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "arcueidJB": {
+                        "startup":6,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "arcueidJC": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "arcueidJ2B": {
+                        "startup":11,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "arcueidJ2C": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "arcueid236A": {
+                        "startup":13,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "arcueid236AHold": {
+                        "startup":24,
+                        "onBlock":4
+                     }
+                },
+                { 
+                    "arcueid236B": {
+                        "startup":10,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "arcueid236XX": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "arcueid236XXX": {
+                        "startup":"n/a",
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "arcueid236XX4X": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "arcueid236C": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "arcueid623A": {
+                        "startup":11,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "arcueid623B": {
+                        "startup":22,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "arcueid623XX": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "arcueid623C": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "arcueid214A": {
+                        "startup":16,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "arcueid214B": {
+                        "startup":16,
+                        "onBlock":3
+                     }
+                },
+                { 
+                    "arcueid214C": {
+                        "startup":"n/a",
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "arcueid22A": {
+                        "startup":6,
+                        "onBlock":-15
+                     }
+                },
+                { 
+                    "arcueid22B": {
+                        "startup":6,
+                        "onBlock":-26
+                     }
+                },
+                { 
+                    "arcueid22C": {
+                        "startup":5,
+                        "onBlock":-44
+                     }
+                },
+                { 
+                    "arcueid22XX": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "arcueid22XX66C": {
+                        "startup":"n/a",
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "arcueid6BC": {
+                        "startup":12,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "arcueid3BC": {
+                        "startup":27,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "arcueid4BC": {
+                        "startup":17,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "arcueid2BC": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "arcueid236BC": {
+                        "startup":"n/a",
+                        "onBlock":-35
+                     }
+                }
+            ]
+        },
+        {
             
         }
     ]
