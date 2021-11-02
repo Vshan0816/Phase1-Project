@@ -979,8 +979,273 @@
             ]
         },
         {
-            
-        }
+            "name": "Hisui",
+            "id": 5,
+            "moveset":[
+                { 
+                    "hisui5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "hisui5B": {
+                        "startup":6,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "hisui5C": {
+                        "startup":10,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "hisui5CHold": {
+                        "startup":24,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "hisui2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "hisui2B": {
+                        "startup":7,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "hisui2C": {
+                        "startup":9,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "hisuiXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "hisuiXXX": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "hisui6C": {
+                        "startup":10,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "hisui6CC": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "hisui6CCC": {
+                        "startup":5,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "hisui3C": {
+                        "startup":12,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "hisui4B": {
+                        "startup":13,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "hisui4BHold": {
+                        "startup":"n/a",
+                        "onBlock":"unblockable"
+                     }
+                },
+                { 
+                    "hisuiJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisuiJB": {
+                        "startup":6,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisuiJC": {
+                        "startup":10,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisuiJCHold": {
+                        "startup":21,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisuiJ2C": {
+                        "startup":11,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisuiJBJ2B": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisui236A": {
+                        "startup":8,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "hisui236B": {
+                        "startup":15,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "hisui236C": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "hisui236XX": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "hisui623A": {
+                        "startup":17,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "hisui623B": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisui623C": {
+                        "startup":"n/a",
+                        "onBlock":25
+                     }
+                },
+                { 
+                    "hisui214A": {
+                        "startup":11,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "hisui214B": {
+                        "startup":19,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "hisui214C": {
+                        "startup":"n/a",
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "hisui22A": {
+                        "startup":86,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisui22B": {
+                        "startup":86,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisui22C": {
+                        "startup":"n/a",
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "hisuiJ236A": {
+                        "startup":11,
+                        "onBlock":10
+                     }
+                },
+                { 
+                    "hisuiJ236B": {
+                        "startup":18,
+                        "onBlock":10
+                     }
+                },
+                { 
+                    "hisuiJ236C": {
+                        "startup":"n/a",
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "hisui6BC": {
+                        "startup":9,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "hisui3BC": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "hisui4BC": {
+                        "startup":11,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "hisui2BC": {
+                        "startup":14,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "hisuiJ6BC": {
+                        "startup":12,
+                        "onBlock":11
+                     }
+                },
+                { 
+                    "hisui236BC": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                }
+            ]
+
+        },
+        {
+
+        },
 
     ]
 }
