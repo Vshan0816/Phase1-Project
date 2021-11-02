@@ -457,6 +457,240 @@
             ]
         },
         {
+            "name": "Akiha Tohno",
+            "id": 3,
+            "moveset":[
+                { 
+                    "akiha5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "akiha5B": {
+                        "startup":8,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "akiha5BHold": {
+                        "startup":21,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "akiha5C": {
+                        "startup":8,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "akiha2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "akiha2B": {
+                        "startup":8,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "akiha2C": {
+                        "startup":9,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "akihaXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "akiha5XXX": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "akiha6C": {
+                        "startup":12,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "akiha3C": {
+                        "startup":12,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "akihaJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "akihaJB": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "akihaJC": {
+                        "startup":10,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "akihaJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "akiha236A": {
+                        "startup":34,
+                        "onBlock":44
+                     }
+                },
+                { 
+                    "akiha236B": {
+                        "startup":40,
+                        "onBlock":50
+                     }
+                },
+                { 
+                    "akiha236C": {
+                        "startup":"n/a",
+                        "onBlock":49
+                     }
+                },
+                { 
+                    "akihaJ236A": {
+                        "startup":29,
+                        "onBlock":30
+                     }
+                },
+                { 
+                    "akihaJ236B": {
+                        "startup":35,
+                        "onBlock":36
+                     }
+                },
+                { 
+                    "akihaJ236C": {
+                        "startup":"n/a",
+                        "onBlock":43
+                     }
+                },
+                { 
+                    "akiha623A": {
+                        "startup":8,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "akiha623B": {
+                        "startup":13,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "akiha623C": {
+                        "startup":"n/a",
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "akiha214A": {
+                        "startup":20,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "akiha214B": {
+                        "startup":29,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "akiha214C": {
+                        "startup":"n/a",
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "akiha22A": {
+                        "startup":11,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "akiha22B": {
+                        "startup":18,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "akiha22C": {
+                        "startup":"n/a",
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "akiha5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "akiha632146C": {
+                        "startup":"1 post super flash",
+                        "onBlock":"Command Grab"
+                     }
+                },
+                { 
+                    "akiha6BC": {
+                        "startup":19,
+                        "onBlock":18
+                     }
+                },
+                { 
+                    "akihaJ6BC": {
+                        "startup":19,
+                        "onBlock":12
+                     }
+                },
+                { 
+                    "akiha3BC": {
+                        "startup":10,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "akiha4BC": {
+                        "startup":15,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "akiha2BC": {
+                        "startup":11,
+                        "onBlock":0
+                     }
+                }, 
+                { 
+                    "akiha236BC": {
+                        "startup":"0 post super flash",
+                        "onBlock":"Command Grab"
+                     }
+                }
+            ]
+        },
+        {
             
         }
     ]
