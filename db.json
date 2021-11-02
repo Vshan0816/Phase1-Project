@@ -691,7 +691,296 @@
             ]
         },
         {
+            "name": "Ciel",
+            "id": 4,
+            "moveset": [
+                { 
+                    "ciel5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "ciel5B": {
+                        "startup":7,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "ciel5C": {
+                        "startup":10,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "ciel5CHold": {
+                        "startup":18,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "ciel5CHold": {
+                        "startup":18,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "ciel2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "ciel2B": {
+                        "startup":8,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "ciel2C": {
+                        "startup":8,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "cielXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "cielXXX": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "ciel6C": {
+                        "startup":13,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "ciel3C": {
+                        "startup":12,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "ciel5C4C": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "cielJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "cielJB": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "cielJC": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "ciel236XB": {
+                        "startup":7,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "ciel236XC": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "ciel236X214X": {
+                        "startup":19,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "ciel236C": {
+                        "startup":"n/a",
+                        "onBlock":-20
+                     }
+                },
+                { 
+                    "ciel623A": {
+                        "startup":11,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "ciel623B": {
+                        "startup":14,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "ciel623C": {
+                        "startup":"n/a",
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "ciel214A": {
+                        "startup":13,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "ciel214AHold": {
+                        "startup":22,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "ciel214B": {
+                        "startup":9,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "ciel214BA": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "ciel214BB": {
+                        "startup":"n/a",
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "ciel214BXA": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "ciel214BXB": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "ciel214C": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "ciel22A": {
+                        "startup":7,
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "ciel22B": {
+                        "startup":7,
+                        "onBlock":-22
+                     }
+                },
+                { 
+                    "ciel22C": {
+                        "startup":"n/a",
+                        "onBlock":-34
+                     }
+                },
+                { 
+                    "cielJ22A": {
+                        "startup":7,
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "cielJ22B": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "cielJ22C": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "cielJ214A": {
+                        "startup":16,
+                        "onBlock":11
+                     }
+                },
+                { 
+                    "cielJ214B": {
+                        "startup":12,
+                        "onBlock":-15
+                     }
+                },
+                { 
+                    "ciel6BC": {
+                        "startup":29,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "cielJ6BC": {
+                        "startup":13,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "ciel3BC": {
+                        "startup":14,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "ciel4BC": {
+                        "startup":15,
+                        "onBlock":1
+                     }
+                },
+                { 
+                    "cielJ4BC": {
+                        "startup":16,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "ciel2BC": {
+                        "startup":9,
+                        "onBlock":"cancelable into air action"
+                     }
+                },
+                { 
+                    "cielJ2BC": {
+                        "startup":8,
+                        "onBlock":"canccelable into air action"
+                     }
+                },
+                { 
+                    "ciel236BC": {
+                        "startup":9,
+                        "onBlock":"n/a"
+                     }
+                }
+            ]
+        },
+        {
             
         }
+
     ]
 }
