@@ -2469,6 +2469,361 @@
             ]
         },
         {
+            "name":"Vlov Arkhangel",
+            "id":11,
+            "moveset":[
+                { 
+                    "vlov5A": {
+                        "startup":7,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "vlov5B": {
+                        "startup":10,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "vlov5C": {
+                        "startup":10,
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "vlov2A": {
+                        "startup":6,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "vlov2B": {
+                        "startup":9,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "vlov2C": {
+                        "startup":9,
+                        "onBlock":-16
+                     }
+                },
+                { 
+                    "vlovXX": {
+                        "startup":-9,
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "vlov6C": {
+                        "startup":16,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "vlov6CHold": {
+                        "startup":30,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "vlov3C": {
+                        "startup":12,
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "vlovJA": {
+                        "startup":6,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "vlovJB": {
+                        "startup":10,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "vlovJC": {
+                        "startup":12,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "vlovJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "vlov236AFire": {
+                        "startup":20,
+                        "onBlock":4
+                     }
+                },
+                { 
+                    "vlov236AIce": {
+                        "startup":11,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "vlov236BFire": {
+                        "startup":18,
+                        "onBlock":5
+                     }
+                },
+                { 
+                    "vlov236BIce": {
+                        "startup":8,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "vlov236XAFire": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "vlov236XAIce": {
+                        "startup":"n/a",
+                        "onBlock":-17
+                     }
+                },
+                { 
+                    "vlov236XAHoldFire": {
+                        "startup":"n/a",
+                        "onBlock":15
+                     }
+                },
+                { 
+                    "vlov236XAHoldIce": {
+                        "startup":"n/a",
+                        "onBlock":13
+                     }
+                },
+                { 
+                    "vlov236XBFire": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "vlov236XBIce": {
+                        "startup":"n/a",
+                        "onBlock":-17
+                     }
+                },
+                { 
+                    "vlov236XBHoldFire": {
+                        "startup":"n/a",
+                        "onBlock":15
+                     }
+                },
+                { 
+                    "vlov236XBHoldIce": {
+                        "startup":"n/a",
+                        "onBlock":13
+                     }
+                },
+                { 
+                    "vlov236CFire": {
+                        "startup":"n/a",
+                        "onBlock":7
+                     }
+                },
+                { 
+                    "vlov236CIce": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "vlovJ236AFire": {
+                        "startup":24,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "vlovJ236AIce": {
+                        "startup":15,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "vlovJ236BFire": {
+                        "startup":24,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "vlovJ236BIce": {
+                        "startup":15,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "vlovJ236CFire": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "vlovJ236CIce": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "vlov214A": {
+                        "startup":9,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "vlov214B": {
+                        "startup":13,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "vlov214BHold": {
+                        "startup":23,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "vlov214XX": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "vlov214XXX": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "vlov214XX4X": {
+                        "startup":"n/a",
+                        "onBlock":"unblockable"
+                     }
+                },
+                { 
+                    "vlov214C": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "vlov22AFire": {
+                        "startup":12,
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "vlov22AIce": {
+                        "startup":11,
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "vlov22BFire": {
+                        "startup":23,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "vlov22BIce": {
+                        "startup":22,
+                        "onBlock":01
+                     }
+                },
+                { 
+                    "vlov22AXFire": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "vlov22AXIce": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "vlov22BXFire": {
+                        "startup":"n/a",
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "vlov22BXIce": {
+                        "startup":"n/a",
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "vlov22C": {
+                        "startup":"n/a",
+                        "onBlock":16
+                     }
+                },
+                { 
+                    "vlov6BCFire": {
+                        "startup":28,
+                        "onBlock":21
+                     }
+                },
+                { 
+                    "vlov6BCIce": {
+                        "startup":14,
+                        "onBlock":9
+                     }
+                },
+                { 
+                    "vlovJ6BCFire": {
+                        "startup":20,
+                        "onBlock":"jump cancelable"
+                     }
+                },
+                { 
+                    "vlovJ6BCIce": {
+                        "startup":17,
+                        "onBlock":"jump cancelable"
+                     }
+                },
+                { 
+                    "vlov4BC": {
+                        "startup":15,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "vlov2BCFire": {
+                        "startup":12,
+                        "onBlock":5
+                     }
+                },
+                { 
+                    "vlov2BCIce": {
+                        "startup":11,
+                        "onBlock":5
+                     }
+                },
+                { 
+                    "vlov236BC": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                }
+            ]
+
+        },
+        {
             
         }
 
