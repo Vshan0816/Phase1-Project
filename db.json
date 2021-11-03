@@ -2012,6 +2012,247 @@
             ]
         },
         {
+           "name":"Noel",
+           "id":9,
+           "moveset":[
+                { 
+                    "noel5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "noel5B": {
+                        "startup":9,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "noel5C": {
+                        "startup":10,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "noel2A": {
+                        "startup":6,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "noel2B": {
+                        "startup":9,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "noel2C": {
+                        "startup":9,
+                        "onBlock":-15
+                     }
+                },
+                { 
+                    "noelXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "noelXXX": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "noelJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "noelJB": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "noelJC": {
+                        "startup":10,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "noelJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "noel236A": {
+                        "startup":16,
+                        "onBlock":13
+                     }
+                },
+                { 
+                    "noel236B": {
+                        "startup":10,
+                        "onBlock":1
+                     }
+                },
+                { 
+                    "noel236XX": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "noel236A66": {
+                        "startup":"n/a",
+                        "onBlock":"-6"
+                     }
+                },
+                { 
+                    "noel236B66": {
+                        "startup":"n/a",
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "noel236C": {
+                        "startup":"n/a",
+                        "onBlock":8
+                     }
+                },
+                { 
+                    "noel236C66": {
+                        "startup":"n/a",
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "noel623A": {
+                        "startup":16,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "noel623B": {
+                        "startup":31,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "noel623C": {
+                        "startup":"n/a",
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "noel214A": {
+                        "startup":13,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "noel214B": {
+                        "startup":16,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "noel214AX": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "noel214BX": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "noel214C": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "noel22A": {
+                        "startup":6,
+                        "onBlock":-16
+                     }
+                },
+                { 
+                    "noel22AHold": {
+                        "startup":6,
+                        "onBlock":-16
+                     }
+                },
+                { 
+                    "noel22C": {
+                        "startup":"n/a",
+                        "onBlock":-31
+                     }
+                },
+                { 
+                    "noelJ236A": {
+                        "startup":15,
+                        "onBlock":10
+                     }
+                },
+                { 
+                    "noelJ236B": {
+                        "startup":12,
+                        "onBlock":4
+                     }
+                },
+                { 
+                    "noelJ236C": {
+                        "startup":10,
+                        "onBlock":5
+                     }
+                },
+                { 
+                    "noel6BC": {
+                        "startup":11,
+                        "onBlock":1
+                     }
+                },
+                { 
+                    "noelJ6BC": {
+                        "startup":12,
+                        "onBlock":11
+                     }
+                },
+                { 
+                    "noel3BC": {
+                        "startup":15,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "noel4BC": {
+                        "startup":10,
+                        "onBlock":"jump cancelable"
+                     }
+                },
+                { 
+                    "noel2BC": {
+                        "startup":7,
+                        "onBlock":"jump cancelable"
+                     }
+                },
+                { 
+                    "noel236BC": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                }
+                
+           ]
+        },
+        {
             
         }
 
