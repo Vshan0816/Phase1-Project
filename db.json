@@ -1244,8 +1244,230 @@
 
         },
         {
-
+            "name": "Kohaku",
+            "id": 6,
+            "moveset":[
+                { 
+                    "kohaku5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "kohaku5B": {
+                        "startup":9,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "kohaku5C": {
+                        "startup":8,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "kohaku2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "kohaku2B": {
+                        "startup":8,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "kohaku2C": {
+                        "startup":9,
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "kohakuXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "kohakuXXX": {
+                        "startup":"n/a",
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "kohaku6C": {
+                        "startup":10,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "kohaku3C": {
+                        "startup":12,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "kohaku2C2C": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "kohakuJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohakuJB": {
+                        "startup":9,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohakuJC": {
+                        "startup":10,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohakuJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohaku236A": {
+                        "startup":10,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "kohaku236AHold": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohaku236B": {
+                        "startup":10,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "kohaku236BHold": {
+                        "startup":21,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "kohaku236C": {
+                        "startup":"n/a",
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "kohaku236XA": {
+                        "startup":"n/a",
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "kohaku214A": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohaku214B": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohaku214C": {
+                        "startup":"n/a",
+                        "onBlock":1
+                     }
+                },
+                { 
+                    "kohaku214AX": {
+                        "startup":"n/a",
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "kohakuJ214A": {
+                        "startup":25,
+                        "onBlock":5
+                     }
+                },
+                { 
+                    "kohakuJ214B": {
+                        "startup":29,
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "kohakuJ214C": {
+                        "startup":"n/a",
+                        "onBlock":8
+                     }
+                },
+                { 
+                    "kohaku22A": {
+                        "startup":15,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "kohaku22B": {
+                        "startup":63,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohaku22C": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kohaku6BC": {
+                        "startup":10,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "kohaku4BC": {
+                        "startup":24,
+                        "onBlock":1
+                     }
+                },
+                { 
+                    "kohakuJ4BC": {
+                        "startup":37,
+                        "onBlock":4
+                     }
+                },
+                { 
+                    "kohaku2BC": {
+                        "startup":26,
+                        "onBlock":"-11 after first hit, 101 after remaining hits"
+                     }
+                }, 
+                { 
+                    "kohaku236BC": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                }   
+            ]
         },
+        {
+            
+        }
 
     ]
 }
