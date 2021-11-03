@@ -2253,6 +2253,222 @@
            ]
         },
         {
+            "name":"Michael Roa Valdamjong",
+            "id":10,
+            "moveset":[
+                { 
+                    "roa5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "roa5B": {
+                        "startup":9,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "roa5C": {
+                        "startup":10,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "roa2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "roa2B": {
+                        "startup":7,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "roa2C": {
+                        "startup":9,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "roaXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "roaXXX": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "roa6C": {
+                        "startup":17,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "roa6CC": {
+                        "startup":"n/a",
+                        "onBlock":-18
+                     }
+                },
+                { 
+                    "roa3C": {
+                        "startup":12,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "roaJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "roaJB": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "roaJC": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "roa236A": {
+                        "startup":10,
+                        "onBlock":"-9 to -2"
+                     }
+                },
+                { 
+                    "roa236B": {
+                        "startup":20,
+                        "onBlock":"-4 to 1"
+                     }
+                },
+                { 
+                    "roa236BHold": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "roa236C": {
+                        "startup":12,
+                        "onBlock":-25
+                     }
+                },
+                { 
+                    "roa623A": {
+                        "startup":7,
+                        "onBlock":-19
+                     }
+                },
+                { 
+                    "roa623B": {
+                        "startup":6,
+                        "onBlock":-30
+                     }
+                },
+                { 
+                    "roa623C": {
+                        "startup":5,
+                        "onBlock":-35
+                     }
+                },
+                { 
+                    "roa214A": {
+                        "startup":12,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "roa214AX": {
+                        "startup":"n/a",
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "roa214B": {
+                        "startup":16,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "roa214BHold": {
+                        "startup":24,
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "roa214BX": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "roa214C": {
+                        "startup":9,
+                        "onBlock":29
+                     }
+                },
+                { 
+                    "roaJ236A": {
+                        "startup":8,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "roaJ236B": {
+                        "startup":19,
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "roaJ236C": {
+                        "startup":7,
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "roa6BC": {
+                        "startup":15,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "roa3BC": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "roa4BC": {
+                        "startup":18,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "roaJ6BC": {
+                        "startup":9,
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "roa236BC": {
+                        "startup":9,
+                        "onBlock":"n/a"
+                     }
+                }
+            ]
+        },
+        {
             
         }
 
