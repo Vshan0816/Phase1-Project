@@ -2824,6 +2824,228 @@
 
         },
         {
+            "name":"Red Arcueid",
+            "id":12,
+            "moveset":[
+                { 
+                    "redArc5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "redArc5B": {
+                        "startup":9,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "redArc5BHold": {
+                        "startup":29,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "redArc5C": {
+                        "startup":10,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "redArc5CHold": {
+                        "startup":21,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "redArc2A": {
+                        "startup":6,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "redArc2B": {
+                        "startup":7,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "redArc2C": {
+                        "startup":8,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "redArcXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "redArcXXX": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "redArc6C": {
+                        "startup":23,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "redArc3C": {
+                        "startup":12,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "redArc2C2C": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "redArcJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArc5JB": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArcJC": {
+                        "startup":10,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArcJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArcJ2C": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArc236A": {
+                        "startup":9,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "redArc236B": {
+                        "startup":21,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "redArc236C": {
+                        "startup":"n/a",
+                        "onBlock":-34
+                     }
+                },
+                { 
+                    "redArc623A": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArc623B": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArc623C": {
+                        "startup":"n/a",
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "redArc214A": {
+                        "startup":13,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "redArc214B": {
+                        "startup":13,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "redArc214C": {
+                        "startup":"n/a",
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "redArcJ214A": {
+                        "startup":8,
+                        "onBlock":4
+                     }
+                },
+                { 
+                    "redArcJ214B": {
+                        "startup":18,
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "redArcJ214BX": {
+                        "startup":"n/a",
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "redArcJ214C": {
+                        "startup":"n/a",
+                        "onBlock":11
+                     }
+                },
+                { 
+                    "redArc6BC": {
+                        "startup":7,
+                        "onBlock":"jump cancelable"
+                     }
+                },
+                { 
+                    "redArc3BC": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "redArc4BC": {
+                        "startup":9,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "redArcJ4BC": {
+                        "startup":9,
+                        "onBlock":7
+                     }
+                },
+                { 
+                    "redArc236BC": {
+                        "startup":12,
+                        "onBlock":"n/a"
+                     }
+                }
+            ]
+        },
+        {
             
         }
 
