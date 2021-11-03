@@ -649,7 +649,7 @@
                 { 
                     "akiha632146C": {
                         "startup":"1 post super flash",
-                        "onBlock":"Command Grab"
+                        "onBlock":"command grab"
                      }
                 },
                 { 
@@ -685,7 +685,7 @@
                 { 
                     "akiha236BC": {
                         "startup":"0 post super flash",
-                        "onBlock":"Command Grab"
+                        "onBlock":"command grab"
                      }
                 }
             ]
@@ -1740,6 +1740,276 @@
                      }
                 }
            ]
+        },
+        {
+            "name": "Kouma Kishima",
+            "id":8,
+            "moveset": [
+                { 
+                    "kouma5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "kouma5B": {
+                        "startup":11,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "kouma5C": {
+                        "startup":9,
+                        "onBlock":-13
+                     }
+                },
+                { 
+                    "kouma5CHold": {
+                        "startup":28,
+                        "onBlock":"unblockable"
+                     }
+                },
+                { 
+                    "kouma2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "kouma2B": {
+                        "startup":7,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "kouma2C": {
+                        "startup":10,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "koumaXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "koumaXXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "kouma3C": {
+                        "startup":12,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "koumaJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "koumaJB": {
+                        "startup":6,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "koumaJC": {
+                        "startup":11,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "koumaJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kouma236A": {
+                        "startup":10,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "kouma236B": {
+                        "startup":11,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "kouma236C": {
+                        "startup":"n/a",
+                        "onBlock":-15
+                     }
+                },
+                { 
+                    "kouma236XX": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "kouma236X4X": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "kouma236XXX": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "kouma236XX4X": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "kouma623A": {
+                        "startup":6,
+                        "onBlock":-17
+                     }
+                },
+                { 
+                    "kouma623B": {
+                        "startup":6,
+                        "onBlock":-25
+                     }
+                },
+                { 
+                    "kouma623C": {
+                        "startup":"n/a",
+                        "onBlock":-23
+                     }
+                },
+                { 
+                    "kouma623AX": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "kouma214A": {
+                        "startup":5,
+                        "onBlock":"command grab"
+                     }
+                },
+                { 
+                    "kouma214B": {
+                        "startup":21,
+                        "onBlock":"command grab"
+                     }
+                },
+                { 
+                    "kouma214C": {
+                        "startup":5,
+                        "onBlock":"command grab"
+                     }
+                },
+                { 
+                    "kouma214X4X": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kouma214X236C": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kouma214X214C": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "koumaJ236A": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "koumaJ236B": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "koumaJ236C": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "koumaJ236XX": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "kouma22A": {
+                        "startup":10,
+                        "onBlock":1
+                     }
+                },
+                { 
+                    "kouma22B": {
+                        "startup":10,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "kouma22C": {
+                        "startup":24,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "kouma6BC": {
+                        "startup":15,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "kouma3BC": {
+                        "startup":7,
+                        "onBlock":"jump cancelable"
+                     }
+                },
+                { 
+                    "kouma4BC": {
+                        "startup":36,
+                        "onBlock":"command grab"
+                     }
+                },
+                { 
+                    "kouma2BC": {
+                        "startup":11,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "koumaJ6BC": {
+                        "startup":16,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "kouma236BC": {
+                        "startup":5,
+                        "onBlock":"command grab"
+                     }
+                }
+            ]
         },
         {
             
