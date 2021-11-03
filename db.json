@@ -1466,6 +1466,282 @@
             ]
         },
         {
+           "name":"Miyako Arima",
+           "id":7,
+           "moveset":[
+                { 
+                    "miyako5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "miyako5B": {
+                        "startup":7,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "miyako5C": {
+                        "startup":9,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "miyako2A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "miyako2B": {
+                        "startup":7,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "miyako2C": {
+                        "startup":8,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "miyakoXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "miyakoXXX": {
+                        "startup":"n/a",
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "miyakoDash6A+B": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "miyako3C": {
+                        "startup":11,
+                        "onBlock":-5
+                     }
+                },
+                { 
+                    "miyako2C2C": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "miyakoJA": {
+                        "startup":5,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "miyakoJB": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "miyakoJC": {
+                        "startup":8,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "miyako236A": {
+                        "startup":10,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "miyako236B": {
+                        "startup":23,
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "miyako236C": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "miyako236XA": {
+                        "startup":"n/a",
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "miyako236XB": {
+                        "startup":"n/a",
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "miyako236XC": {
+                        "startup":"n/a",
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "miyako623A": {
+                        "startup":6,
+                        "onBlock":-28
+                     }
+                },
+                { 
+                    "miyako623B": {
+                        "startup":22,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "miyako623C": {
+                        "startup":"n/a",
+                        "onBlock":-33
+                     }
+                },
+                { 
+                    "miyako214A": {
+                        "startup":20,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "miyako214AHold": {
+                        "startup":28,
+                        "onBlock":-2
+                     }
+                },
+                { 
+                    "miyako214B": {
+                        "startup":28,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "miyako214BHold": {
+                        "startup":36,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "miyako214C": {
+                        "startup":"n/a",
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "miyako22A": {
+                        "startup":16,
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "miyako22B": {
+                        "startup":27,
+                        "onBlock":9
+                     }
+                },
+                { 
+                    "miyako22C": {
+                        "startup":"n/a",
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "miyako22CHold": {
+                        "startup":"n/a",
+                        "onBlock":"unblockable"
+                     }
+                },
+                { 
+                    "miyakoJ236A": {
+                        "startup":12,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "miyakoJ236B": {
+                        "startup":14,
+                        "onBlock":-18
+                     }
+                },
+                { 
+                    "miyakoJ236C": {
+                        "startup":"n/a",
+                        "onBlock":-16
+                     }
+                },
+                { 
+                    "miyakoJ214A": {
+                        "startup":18,
+                        "onBlock":-19
+                     }
+                },
+                { 
+                    "miyakoJ214B": {
+                        "startup":18,
+                        "onBlock":-19
+                     }
+                },
+                { 
+                    "miyakoJ214C": {
+                        "startup":"n/a",
+                        "onBlock":-20
+                     }
+                },
+                { 
+                    "miyako6BC": {
+                        "startup":12,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "miyako4BC": {
+                        "startup":20,
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "miyako3BC": {
+                        "startup":8,
+                        "onBlock":"jump cancelable"
+                     }
+                },
+                { 
+                    "miyako2BC": {
+                        "startup":13,
+                        "onBlock":2
+                     }
+                },
+                { 
+                    "miyakoj6BC": {
+                        "startup":14,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "miyakoJ4BC": {
+                        "startup":5,
+                        "onBlock":"-4, jump cancelable"
+                     }
+                },
+                { 
+                    "miyako236BC": {
+                        "startup":8,
+                        "onBlock":-15
+                     }
+                }
+           ]
+        },
+        {
             
         }
 
