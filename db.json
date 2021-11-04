@@ -3,6 +3,7 @@
         {
             "name": "Shiki Tohno",
             "id": 1,
+            "story":"The eldest son of the historical Tohno family, he was raised for some time by the Arima branch family. However, he was called back to Souya to live in the Tohno estate shortly after his father passed away. A childhood injury left him with the Mystic Eyes of Death Perception, giving him the ability to see the death of all things in the form of lines and points. He wears special glasses which prevent his eyes from seeing these things all the time. He may be an ordinary student, but his ability to visualize death has altered his very perception of it. The aftereffects of his accident, combined with the toll his eyes take, has left him with chronic anemia. During battle, he removes his glasses to use his Mystic Eyes of Death Perception.",
             "moveset": [
                 {
                     "shiki5A": {
@@ -207,6 +208,7 @@
         {
             "name": "Arcueid Brunestud",
             "id":2,
+            "story":"A royal member of the vampire race known as the True Ancestors. After suffering through a traumatic event, a naively innocent side of her was somehow released. She now lives as a free-spirited, almost childish, princess. She is incredibly powerful and, despite being a vampire, is able to survive in direct sunlight. She has no desire to threaten human society, instead hunting other vampires known as Dead Apostles. While pursuing her greatest enemy, she arrives in Souya, where Shiki lives. Although a fateful encounter awaits her and Shiki here, a story of an earlier possibility is about to unfold.",
             "moveset":[
                 { 
                     "arcueid5A": {
@@ -459,6 +461,7 @@
         {
             "name": "Akiha Tohno",
             "id": 3,
+            "story":"After the death of her father, she inherits the role of leader of the Tohno family, a distinguished house in Souya. One year younger than her brother Shiki, she arranged for his return from the Arima family. Her flawless etiquette and bearing perfectly epitomize the daughter of a noble house. She is strict even on herself, rejecting such things as modern-day amusements and frivolity. Because of her prideful and strong-willed nature, many find her difficult to approach. Sensing a mysterious presence in her town, and determined to uphold the Tohno family name, she sets off into the night to investigate...",
             "moveset":[
                 { 
                     "akiha5A": {
@@ -693,6 +696,7 @@
         {
             "name": "Ciel",
             "id": 4,
+            "story": "The Holy Church, a major religion in Europe, does not take kindly to heresy. Ciel works as an executor for its specialized force known as the Burial Agency. Her calling? Hunting and destroying heretics in the name of the Lord. Like Arcueid, she wishes to destroy her mortal enemy and has come to Souya in search of him, deciding to blend in by posing as a regular student at the same high school as Shiki. She currently attends school as a senior, one year above Shiki, and is quite popular with many of the students there. They see her as both warm and cheerful. Her go-to lunch from the school shop is curry bread, and her favorite restaurant serves the best curry in town.",
             "moveset": [
                 { 
                     "ciel5A": {
@@ -981,6 +985,7 @@
         {
             "name": "Hisui",
             "id": 5,
+            "story":"A maid for the Tohno family, responsible for household chores (except cooking) and taking care of Shiki. She is Kohaku's younger twin. Unlike her sister, she is known for wearing more modern, non-traditional clothing. Her quiet nature makes her true feelings difficult to read, and her formal way of speaking has led Shiki to see her as being rather mechanical. Her fighting skills are not quite on the same level as her sister, but she holds her own well enough.",
             "moveset":[
                 { 
                     "hisui5A": {
@@ -1246,6 +1251,7 @@
         {
             "name": "Kohaku",
             "id": 6,
+            "story":"She and her twin sister Hisui have worked for the Tohno family since they were young. Her trademark outfit is an apron over a classic kimono. Apart from assisting Akiha, she does household chores and tends the garden. Her pharmaceutical knowledge means she is also responsible for Shiki when he falls ill. She is endlessly cheerful, always willing to help, and wears a constant smile. In battle, Kohaku can be seen wielding the sword she keeps hidden in her broom, calling on strange plants, and even dropping fire bombs from above as if by magic. How she is capable of such things is still a mystery to those around her.",
             "moveset":[
                 { 
                     "kohaku5A": {
@@ -1468,6 +1474,7 @@
         {
            "name":"Miyako Arima",
            "id":7,
+           "story":"The eldest daughter of the Arima branch family, which took Shiki in as a child. Currently in the fifth grade, she sees herself as Shiki's other sister. She learned bajiquan by observing others in her family's dojo, though it now sits unused. Although she was nowhere near the skill of a true martial artist, her abilities quickly flourish in the ensuing battles. Her destructive powers make it hard to believe she is only 11 years old.",
            "moveset":[
                 { 
                     "miyako5A": {
@@ -1744,6 +1751,7 @@
         {
             "name": "Kouma Kishima",
             "id":8,
+            "story":"Head of the Kishima clan, a branch of the Tohno family. He is half demon. Even among mixed-bloods, his demon blood is strong, making him only barely human. Usually very quiet, he chooses to live as a hermit in a remote area of the mountains where he seeks to achieve spiritual enlightenment. Because of this, he often speaks of worldly ties and spirituality. His demeanor in battle, however, reflects his innate strength and demon blood. His ability to use Scorching Heat means those in his way are often burned to ash.",
             "moveset": [
                 { 
                     "kouma5A": {
@@ -2014,6 +2022,7 @@
         {
            "name":"Noel",
            "id":9,
+           "story":"She recently transferred to Shiki's school as a new teacher. She metes out judgment to all blasphemers as an executor for the Holy Church. She may not have the battle experience Ciel does, but she's prepared to fight. Whenever faced with a weak opponent, she shows no mercy, claiming to be 'weak against the strong, but overwhelmingly strong against the weak'.",
            "moveset":[
                 { 
                     "noel5A": {
@@ -2255,6 +2264,7 @@
         {
             "name":"Michael Roa Valdamjong",
             "id":10,
+            "story":"A vampire known as the 'Serpent of Akasha' or the 'Infinite Reincarnator.' Former priest of the Holy Church. He can manipulate information and electricity at will. The story of Roa appearing in Souya that came to him predicts the possibilities he might have had following a chance encounter with Arcueid and Shiki.",
             "moveset":[
                 { 
                     "roa5A": {
@@ -2471,6 +2481,7 @@
         {
             "name":"Vlov Arkhangel",
             "id":11,
+            "story": "For some reason, this Dead Apostle from the frozen lands of the far north has arrived in the city of Souya. Vlov is already starved of warmth and must feed on blood for heat, which he can then consume in order to create flames. In battle, he can switch from Flame Mode to Ice Mode when in danger. In this mode, Vlov’s abilities expand exponentially, granting him nearly unrivaled strength.",
             "moveset":[
                 { 
                     "vlov5A": {
@@ -2739,7 +2750,7 @@
                 { 
                     "vlov22BIce": {
                         "startup":22,
-                        "onBlock":01
+                        "onBlock":1
                      }
                 },
                 { 
@@ -2826,6 +2837,7 @@
         {
             "name":"Red Arcueid",
             "id":12,
+            "story": "Due to the effects of coming back from a 'certain accident,' her vampiric impulses and overwhelming desires have taken over. Driven by instinct, she arrives in a lowly human city. Controlled by pure emotion, her actions and words are quite dangerous, but her underlying personality remains mostly unchanged. The only big difference is her increased selfishness and changed attitude toward humans.",
             "moveset":[
                 { 
                     "redArc5A": {
@@ -3048,6 +3060,7 @@
         {
             "name": "Saber",
             "id":13,
+            "story": "Real name: Artoria Pendragon. A knight with braided blonde hair, shining blue and silver armor, and a somewhat cold attitude. She is well-known from the legends of King Arthur, wielder of the holy sword Excalibur who founded the Knights of the Round Table. Somehow, she has appeared in this world without the use of a summoning ritual. She now searches Souya for answers to this mystery.",
             "moveset":[
                 { 
                     "saber5A": {
