@@ -3046,7 +3046,250 @@
             ]
         },
         {
-            
+            "name": "Saber",
+            "id":13,
+            "moveset":[
+                { 
+                    "saber5A": {
+                        "startup":5,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "saber5B": {
+                        "startup":9,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "saber5C": {
+                        "startup":10,
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "saber5CHold": {
+                        "startup":21,
+                        "onBlock":-14
+                     }
+                },
+                { 
+                    "saber2A": {
+                        "startup":6,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "saber2B": {
+                        "startup":9,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "saber2C": {
+                        "startup":9,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "saberXX": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "saberXXX": {
+                        "startup":"n/a",
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "saber6C": {
+                        "startup":16,
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "saber3C": {
+                        "startup":12,
+                        "onBlock":-12
+                     }
+                },
+                { 
+                    "saberJA": {
+                        "startup":6,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "saberjB": {
+                        "startup":7,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "saberJC": {
+                        "startup":11,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "saberJCHold": {
+                        "startup":20,
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "saber236A": {
+                        "startup":10,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "saber236B": {
+                        "startup":12,
+                        "onBlock":-8
+                     }
+                },
+                { 
+                    "saber236C": {
+                        "startup":"n/a",
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "saber236XX": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "saberX4X": {
+                        "startup":"n/a",
+                        "onBlock":-10
+                     }
+                },
+                { 
+                    "saberXXX": {
+                        "startup":"n/a",
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "saberXX4X": {
+                        "startup":"n/a",
+                        "onBlock":-9
+                     }
+                },
+                { 
+                    "saber623A": {
+                        "startup":11,
+                        "onBlock":-11
+                     }
+                },
+                { 
+                    "saber623B": {
+                        "startup":9,
+                        "onBlock":-15
+                     }
+                },
+                { 
+                    "saber623C": {
+                        "startup":"n/a",
+                        "onBlock":-17
+                     }
+                },
+                { 
+                    "saber214A": {
+                        "startup":27,
+                        "onBlock":5
+                     }
+                },
+                { 
+                    "saber214AHold": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "saber214B": {
+                        "startup":22,
+                        "onBlock":-7
+                     }
+                },
+                { 
+                    "saber214BHold": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "saber214C": {
+                        "startup":"n/a",
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "saber22C": {
+                        "startup":"n/a",
+                        "onBlock":8
+                     }
+                },
+                { 
+                    "saberJ236A": {
+                        "startup":13,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "saberJ236B": {
+                        "startup":20,
+                        "onBlock":-1
+                     }
+                },
+                { 
+                    "saberJ236C": {
+                        "startup":"n/a",
+                        "onBlock":0
+                     }
+                },
+                { 
+                    "saber6BC": {
+                        "startup":16,
+                        "onBlock":-4
+                     }
+                },
+                { 
+                    "saber3BC": {
+                        "startup":13,
+                        "onBlock":-6
+                     }
+                },
+                { 
+                    "saber4BC": {
+                        "startup":32,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "saber5A": {
+                        "startup":13,
+                        "onBlock":-3
+                     }
+                },
+                { 
+                    "saber236BC": {
+                        "startup":"n/a",
+                        "onBlock":"n/a"
+                     }
+                },
+                { 
+                    "saber214BC": {
+                        "startup":"n/a",
+                        "onBlock":"counter"
+                     }
+                }
+            ]
         }
 
     ]
