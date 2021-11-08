@@ -1,15 +1,22 @@
-// Arrays to create to make code less dry
-const characterImgs = [
-    shiki, arcueid, akiha, ciel, hisui, kohaku, miyako, kouma, noel, roa, vlov, redArc, saber
-]
 
-const fetchAPI = fetch("http://localhost:3000/typeLuminaCharacter")
+
+// function fetchShikiName(){
+//     fetch("http://localhost:3000/typeLuminaCharacter")
+//     .then(resp => resp.json())
+//     .then(data => data[0].name)
+// }
+    
+function fetchCharacters(){
+    fetch("http://localhost:3000/typeLuminaCharacter")
     .then(resp => resp.json())
+    .then(data => data.forEach(handleCharacter))
+}
 
 // what to include under DOMContentloaded
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
 
 function handlePageLoaded(){
+    fetchCharacters()
     shiki.addEventListener("click", handleShiki)
     arcueid.addEventListener("click", handleArcueid)
     akiha.addEventListener("click", handleAkiha)
@@ -24,13 +31,17 @@ function handlePageLoaded(){
     redArc.addEventListener("click", handleRedArc)
     saber.addEventListener("click", handleSaber)
 }
-function handleShiki(){
+function handleCharacter(character){
     // make elements
     const shikiCard = document.createElement("div")
     const shikiName = document.createElement("h3")
     const shikiImg = document.createElement("img")
     const shikiStory = document.createElement("p")
-    fetchAPI
+
+    shikiName.textContent = character.name
+    console.log(shikiName)
+    // append shikiName to #single-character Div
+    document.querySelector("#single-character").appendChild(shikiName)
     
 }
 // What I want to do for each character
