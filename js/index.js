@@ -3,6 +3,9 @@ const characterImgs = [
     shiki, arcueid, akiha, ciel, hisui, kohaku, miyako, kouma, noel, roa, vlov, redArc, saber
 ]
 
+const fetchAPI = fetch("http://localhost:3000/typeLuminaCharacter")
+    .then(resp => resp.json())
+
 // what to include under DOMContentloaded
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
 
@@ -22,6 +25,12 @@ function handlePageLoaded(){
     saber.addEventListener("click", handleSaber)
 }
 function handleShiki(){
+    // make elements
+    const shikiCard = document.createElement("div")
+    const shikiName = document.createElement("h3")
+    const shikiImg = document.createElement("img")
+    const shikiStory = document.createElement("p")
+    fetchAPI
     
 }
 // What I want to do for each character
