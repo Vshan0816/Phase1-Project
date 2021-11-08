@@ -1,8 +1,11 @@
-   
+let characters = []   
 function fetchCharacters(){
     fetch("http://localhost:3000/typeLuminaCharacter")
     .then(resp => resp.json())
-    .then(data => data.forEach(handleCharacter))
+    .then(data => {
+        characters = data
+        data.forEach(handleCharacter)
+    })
 }
 
 // what to include under DOMContentloaded
@@ -26,19 +29,52 @@ function handlePageLoaded(){
 }
 function handleCharacter(character){
     // make elements
-    const charDiv = document.createElement("div")
-    const charName = document.createElement("h3")
     const charImg1 = document.createElement("img")
     const charImg2 = document.createElement("img")
+    const charDiv = document.createElement("div")
+    const charName = document.createElement("h3")
     const charStory = document.createElement("p")
+    const table = document.createElement("table")
 
     // set information to elements
     charImg1.src = character.image1
+    table.innerHTML = `
+    <tr>
+        <th>MoveName</th>
+        <th>Startup</th>
+        <th>Frame Advantage on Block</th>
+    </tr>
+    `
+    character.moveset.forEach(move => {
+        const keyName = Object.keys(move)[0]
+        table.innerHTML += `
+    <tr>
+        <td>${keyName}</td>
+        <td>${move[keyName].startup}</td>
+        <td>${move[keyName].onBlock}</td>
+    </tr>`
+    })
     // add event listeners
-    charImg1.addEventListener("click", handleSingleCharacter)
+    charImg1.addEventListener("click", handleOneCharacter)
     // append to page
     document.querySelector("#character-list").appendChild(charImg1)
+
+    function handleOneCharacter(){
+    // set information to elements
+    charName.textContent = character.name
+    charImg2.src = character.image2
+    charStory.textContent = character.story
+    // append to charDiv
+    charDiv.append(charName,charImg2, charStory, table)
+    // clear #single-character
+    document.querySelector("#single-character").innerHTML=""
+    // append to page
+    document.querySelector("#single-character").appendChild(charDiv)
+    }
 }
+
+
+
 
     
 
@@ -57,5 +93,5 @@ function handleCharacter(character){
 // render images on DOMContentLoaded, through function
 // DOMContentLoaded -> handlePageLoaded -> fetchCharacters -> handleCharacter
 
-
+// for each move we should create a row in the table
 
