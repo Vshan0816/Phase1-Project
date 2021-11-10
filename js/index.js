@@ -12,20 +12,7 @@ function fetchCharacters(){
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
 
 function handlePageLoaded(){
-    fetchCharacters()
-    // shiki.addEventListener("click", handleShiki)
-    // arcueid.addEventListener("click", handleArcueid)
-    // akiha.addEventListener("click", handleAkiha)
-    // ciel.addEventListener("click", handleCiel)
-    // hisui.addEventListener("click", handleHisui)
-    // kohaku.addEventListener("click", handleKohaku)
-    // miyako.addEventListener("click", handleMiyako)
-    // kouma.addEventListener("click", handleKouma)
-    // noel.addEventListener("click", handleNoel)
-    // roa.addEventListener("click", handleRoa)
-    // vlov.addEventListener("click", handleVlov)
-    // redArc.addEventListener("click", handleRedArc)
-    // saber.addEventListener("click", handleSaber)
+    fetchCharacters()   
 }
 function handleCharacter(character){
     // make elements
@@ -73,11 +60,6 @@ function handleCharacter(character){
     }
 }
 
-
-
-
-    
-
 // What I want to do for each character
 // create div for each Character
 // append CharacterCard to page
@@ -87,11 +69,25 @@ function handleCharacter(character){
 // What does CharacterCard contain?
     // name, story, movelist with frame data
 // How do i use Fetch to GET what i need
-// work on name and story first
+    // Fire fetch on DOMContentLoaded
+    // use data with forEach, to render characters on page
+    // render images on DOMContentLoaded, through function
+    // DOMContentLoaded -> handlePageLoaded -> fetchCharacters -> handleCharacter
 
-// add images to db.json,
-// render images on DOMContentLoaded, through function
-// DOMContentLoaded -> handlePageLoaded -> fetchCharacters -> handleCharacter
+// How do i create a table  
+    // use innerHTML
+    // for each move we should create a row in the table
 
-// for each move we should create a row in the table
+// what does a find function do
+    // The find() method returns the value of the first element in the provided array that satisfies the provided testing function.
+    // If no values satisfy the testing function, undefined is returned.
+// Do i need a find function? If so why?
+// How do i create a find function? 
+// what do i need to return?
+    // character move name, frame data
+// what i need to be in the input
+    // Movedata
+// Thoughts
+    // Do i need to iterate? Yes in order to find each movename
+    // If input.value = movename, append movename, startup and onblock
 
