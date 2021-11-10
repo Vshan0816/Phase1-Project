@@ -29,6 +29,9 @@ function handleCharacter(character){
 
     // set information to elements
     charImg1.src = character.image1
+    charName.textContent = character.name
+    charImg2.src = character.image2
+    charStory.textContent = character.story
     table.innerHTML = `
     <tr>
         <th>MoveName</th>
@@ -45,16 +48,16 @@ function handleCharacter(character){
         <td>${move[keyName].onBlock}</td>
     </tr>`
     })
+    // set attributes
+    charName.className = "h2"
+    charImg2.className = "singleCharacter"
+    charDiv.id = "charDivID"
     // add event listeners
     charImg1.addEventListener("click", handleOneCharacter)
     // append to page
     document.querySelector("#character-list").appendChild(charImg1)
 
     function handleOneCharacter(){
-    // set information to elements
-    charName.textContent = character.name
-    charImg2.src = character.image2
-    charStory.textContent = character.story
     // append to charDiv
     charDiv.append(charName,charImg2, charStory, table)
     // clear #single-character

@@ -1,5 +1,40 @@
 .title {
     margin: auto;
     text-align:center;
+    width: 1000px;
+    padding: 10px
+}
+.header {
+    margin:auto;
+    text-align:center;
+    width: 1000px;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 10px
+}
+
+.character-selection{
+    margin:auto;
+    text-align:center;
+    width: 1200px;
+}
+#charDivID{
+    margin:auto;
+    text-align:center;
+    padding:20px;
     width: 1000px
+}
+
+#inner-legend{
+    margin:auto;
+    text-align:left;
+    width:50%
+}
+
+.h2{
+    margin:auto;
+    text-align:center;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 10px
 }
