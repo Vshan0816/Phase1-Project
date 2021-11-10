@@ -11,8 +11,10 @@ function fetchCharacters(){
 // what to include under DOMContentloaded
 document.addEventListener("DOMContentLoaded", handlePageLoaded)
 
+// functions under DOMContentloaded
 function handlePageLoaded(){
-    fetchCharacters()   
+    fetchCharacters()
+    document.querySelector("#form").addEventListener("submit", handleSubmit)   
 }
 function handleCharacter(character){
     // make elements
@@ -58,6 +60,15 @@ function handleCharacter(character){
     // append to page
     document.querySelector("#single-character").appendChild(charDiv)
     }
+}
+function handleSubmit(e){
+    e.preventDefault()
+    const p = document.createElement("p")
+    characters.forEach(handleChar)   
+}
+function handleChar(char){
+    
+
 }
 
 // What I want to do for each character
