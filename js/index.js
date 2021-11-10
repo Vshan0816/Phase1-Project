@@ -1,3 +1,4 @@
+const form = () => document.querySelector("#form");
 let characters = []   
 function fetchCharacters(){
     fetch("http://localhost:3000/typeLuminaCharacter")
@@ -64,12 +65,21 @@ function handleCharacter(character){
 function handleSubmit(e){
     e.preventDefault()
     const p = document.createElement("p")
-    characters.forEach(handleChar)   
-}
-function handleChar(char){
-    
+    const formText = document.querySelector("#form-input").value
+    characters.forEach(handleChar)  
 
+    function handleChar(char){
+            char.moveset.forEach(move => {
+            let moveName = Object.keys(move)[0]
+            if (moveName === formText){
+            p.textContent = formText
+            document.querySelector("#paragraph").appendChild(p)
+            }           
+        })
+    }
+    document.querySelector("#form").reset()
 }
+
 
 // What I want to do for each character
 // create div for each Character
