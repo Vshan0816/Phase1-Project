@@ -72,7 +72,8 @@ function handleSubmit(e){
             char.moveset.forEach(move => {
             let moveName = Object.keys(move)[0]
             if (moveName === formText){
-            p.textContent = formText
+            document.querySelector("#paragraph").innerHTML = ""
+            p.textContent = `${formText} has a startup of ${move[moveName].startup} and is ${move[moveName].onBlock} on block`
             document.querySelector("#paragraph").appendChild(p)
             }           
         })
@@ -111,4 +112,6 @@ function handleSubmit(e){
 // Thoughts
     // Do i need to iterate? Yes in order to find each movename
     // If input.value = movename, append movename, startup and onblock
+
+// why an array of objects, versus, an object with seperate keys. 
 
