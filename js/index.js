@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", handlePageLoaded)
 // functions under DOMContentloaded
 function handlePageLoaded(){
     fetchCharacters()
-    document.querySelector("#form").addEventListener("submit", handleSubmit)   
+    document.querySelector("#form").addEventListener("submit", handleSubmit)
+    document.querySelector("#clear").addEventListener("click", handleClear)   
 }
 function handleCharacter(character){
     // make elements
@@ -72,7 +73,6 @@ function handleSubmit(e){
             char.moveset.forEach(move => {
             let moveName = Object.keys(move)[0]
             if (moveName === formText){
-            document.querySelector("#paragraph").innerHTML = ""
             p.textContent = `${formText} has a startup of ${move[moveName].startup} and is ${move[moveName].onBlock} on block`
             document.querySelector("#paragraph").appendChild(p)
             }           
@@ -80,7 +80,9 @@ function handleSubmit(e){
     }
     document.querySelector("#form").reset()
 }
-
+function handleClear(){
+    document.querySelector("#paragraph").innerHTML = ""
+}
 
 // What I want to do for each character
 // create div for each Character
