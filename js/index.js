@@ -1,5 +1,10 @@
-const form = () => document.querySelector("#form");
-let characters = []   
+//form getter
+
+
+//global array for fetch data
+let characters = []  
+
+//fetch function
 function fetchCharacters(){
     fetch("http://localhost:3000/typeLuminaCharacter")
     .then(resp => resp.json())
@@ -21,15 +26,16 @@ function handlePageLoaded(){
 function handleCharacter(character){
     // make elements
     const charImg1 = document.createElement("img")
-    const charImg2 = document.createElement("img")
     const charDiv = document.createElement("div")
     const charName = document.createElement("h2")
+    const charImg2 = document.createElement("img")
     const storyTitle = document.createElement("h2")
     const charStory = document.createElement("p")
     const table = document.createElement("table")
 
     // set information to elements
     charImg1.src = character.image1
+
     charName.textContent = character.name
     charImg2.src = character.image2
     charStory.textContent = character.story
@@ -51,16 +57,19 @@ function handleCharacter(character){
     </tr>`
     })
     // set attributes
+    charDiv.id = "charDivID"
     charName.className = "h2"
     charImg2.className = "singleCharacter"
-    charDiv.id = "charDivID"
-    table.id = "tableID"
-    charStory.id = "charStoryID"
     storyTitle.className = "h2"
-    // add event listeners
-    charImg1.addEventListener("click", handleOneCharacter)
-    // append to page
+    charStory.id = "charStoryID"
+    table.id = "tableID"
+    
+    // append character images to page on launch
     document.querySelector("#character-list").appendChild(charImg1)
+
+    // add event listeners to each image
+    charImg1.addEventListener("click", handleOneCharacter)
+
 
     function handleOneCharacter(){
     // append to charDiv
@@ -95,7 +104,7 @@ function handleClear(){
 // What I want to do for each character
 // create div for each Character
 // append CharacterCard to page
-    // what do i target
+    // what do i append to
         // #character-list
 
 // What does CharacterCard contain?

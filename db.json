@@ -657,7 +657,7 @@
                 },
                 { 
                     "akiha632146C": {
-                        "startup":"1 post super flash",
+                        "startup":"1 post flash",
                         "onBlock":"command grab"
                      }
                 },
