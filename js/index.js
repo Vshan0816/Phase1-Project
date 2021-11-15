@@ -23,7 +23,8 @@ function handleCharacter(character){
     const charImg1 = document.createElement("img")
     const charImg2 = document.createElement("img")
     const charDiv = document.createElement("div")
-    const charName = document.createElement("h3")
+    const charName = document.createElement("h2")
+    const storyTitle = document.createElement("h2")
     const charStory = document.createElement("p")
     const table = document.createElement("table")
 
@@ -32,6 +33,7 @@ function handleCharacter(character){
     charName.textContent = character.name
     charImg2.src = character.image2
     charStory.textContent = character.story
+    storyTitle.textContent = "Story"
     table.innerHTML = `
     <tr>
         <th>MoveName</th>
@@ -52,6 +54,9 @@ function handleCharacter(character){
     charName.className = "h2"
     charImg2.className = "singleCharacter"
     charDiv.id = "charDivID"
+    table.id = "tableID"
+    charStory.id = "charStoryID"
+    storyTitle.className = "h2"
     // add event listeners
     charImg1.addEventListener("click", handleOneCharacter)
     // append to page
@@ -59,7 +64,7 @@ function handleCharacter(character){
 
     function handleOneCharacter(){
     // append to charDiv
-    charDiv.append(charName,charImg2, charStory, table)
+    charDiv.append(charName,charImg2,storyTitle,charStory, table)
     // clear #single-character
     document.querySelector("#single-character").innerHTML=""
     // append to page
