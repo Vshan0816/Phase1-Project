@@ -1,6 +1,3 @@
-//form getter
-
-
 //global array for fetch data
 let characters = []  
 
@@ -26,6 +23,7 @@ function handlePageLoaded(){
 function handleCharacter(character){
     // make elements
     const charImg1 = document.createElement("img")
+    
     const charDiv = document.createElement("div")
     const charName = document.createElement("h2")
     const charImg2 = document.createElement("img")
@@ -80,6 +78,7 @@ function handleCharacter(character){
     document.querySelector("#single-character").appendChild(charDiv)
     }
 }
+
 function handleSubmit(e){
     e.preventDefault()
     const p = document.createElement("p")
@@ -90,7 +89,8 @@ function handleSubmit(e){
             char.moveset.forEach(move => {
             let moveName = Object.keys(move)[0]
             if (moveName === formText){
-            p.textContent = `${formText} has a startup of ${move[moveName].startup} and is ${move[moveName].onBlock} on block`
+            p.textContent = `${formText} has a startup of ${move[moveName].startup} and is
+             ${move[moveName].onBlock} on block`
             document.querySelector("#paragraph").appendChild(p)
             }           
         })
