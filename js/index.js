@@ -2,13 +2,13 @@
 let characters = []  
 
 function fetchCharacters(){
-    fetch("http://localhost:3000/typeLuminaCharacter")
+    fetch("http://localhost:3000/typeLuminaCharacters")
     .then(resp => resp.json())
     .then(data => {
         characters = data
         data.forEach(handleCharacter)
     })
-    .catch(function (error){
+    .catch((error)=>{
         console.log(error.message)
     })
 }
@@ -45,12 +45,7 @@ function handleCharacter(character){
     
     character.moveset.forEach(move => {
         const keyName = Object.keys(move)[0]
-        table.innerHTML += `
-    <tr>
-        <td>${keyName}</td>
-        <td>${move[keyName].startup}</td>
-        <td>${move[keyName].onBlock}</td>
-    </tr>`
+        table.innerHTML += tableFunction(move, keyName)
     })
     
     charDiv.id = "charDivID"
@@ -92,4 +87,10 @@ function handleSubmit(e){
 function handleClear(){
     document.querySelector("#paragraph").innerHTML = ""
 }
-
+const tableFunction = (move, keyName) => {
+    return `<tr>
+        <td>${keyName}</td>
+        <td>${move[keyName].startup}</td>
+        <td>${move[keyName].onBlock}</td>
+    </tr>`
+}
